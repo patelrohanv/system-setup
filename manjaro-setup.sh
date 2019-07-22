@@ -2,17 +2,8 @@
 
 ssh-keygen -t rsa -C "patelrohanv@gmail.com"
 
-cd ~/Downloads
 # install yay
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-
-
-cd ~/Downloads
-# zsh
-sudo yay -S zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo pacman -S yay
 
 # chrome
 sudo yay -S google-chrome
@@ -48,3 +39,9 @@ sudo npm install -g @vue/cli
 
 # go
 sudo yay -S go
+
+
+cd ~/Downloads
+# zsh
+sudo yay -S zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
