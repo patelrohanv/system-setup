@@ -6,10 +6,10 @@ ssh-keygen -t rsa -C "patelrohanv@gmail.com"
 sudo pacman -S yay
 
 # chrome
-sudo yay -S google-chrome
+yay -S google-chrome
 
 #discord
-sudo yay -S discord
+yay -S discord
 
 # vs code
 sudo yay -S visual-studio-code-bin
@@ -21,13 +21,13 @@ sudo yay -S visual-studio-code-bin
 # java
 
 # python
-sudo yay -S python
+yay -S python
 
 # node
-sudo yay -S nodejs
+yay -S nodejs
 
 # npm
-sudo yay -S npom
+yay -S npom
 
 # angular
 sudo npm install -g @angular/cli
@@ -38,7 +38,7 @@ sudo npm install -g @angular/cli
 sudo npm install -g @vue/cli
 
 # go
-sudo yay -S go
+yay -S go
 
 
 cd ~/Downloads
