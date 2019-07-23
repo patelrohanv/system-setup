@@ -27,7 +27,7 @@ yay -S python
 yay -S nodejs
 
 # npm
-yay -S npom
+yay -S npm
 
 # angular
 sudo npm install -g @angular/cli
