@@ -19,6 +19,7 @@ sudo yay -S visual-studio-code-bin
 # steam
 
 # java
+yay -S jdk-openjdk
 
 # python
 yay -S python
@@ -40,6 +41,11 @@ sudo npm install -g @vue/cli
 # go
 yay -S go
 
+# docker
+yay -S docker
+
+# virtualbox
+yay -S virtualbox
 
 cd ~/Downloads
 # zsh
