@@ -2,12 +2,6 @@
 
 ssh-keygen -t rsa -C "patelrohanv@gmail.com"
 
-cd ~/Downloads
-# zsh
-sudo apt install zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-
 sudo apt install
 # chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -26,6 +20,7 @@ rm discord.deb
 # steam
 
 # java
+sudo apt install openjdk-12-jdk 
 
 # python
 sudo apt install python3
@@ -43,3 +38,8 @@ sudo npm install -g @vue/cli
 
 # go
 sudo apt install golang-go
+
+cd ~/Downloads
+# zsh
+sudo apt install zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
