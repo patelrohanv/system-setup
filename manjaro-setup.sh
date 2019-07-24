@@ -12,7 +12,7 @@ yay -S google-chrome
 yay -S discord
 
 # vs code
-sudo yay -S visual-studio-code-bin
+yay -S visual-studio-code-bin
 
 # google music
 
@@ -49,5 +49,5 @@ yay -S virtualbox
 
 cd ~/Downloads
 # zsh
-sudo yay -S zsh
+yay -S zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
