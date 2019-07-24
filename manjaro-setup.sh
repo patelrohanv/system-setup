@@ -2,6 +2,9 @@
 
 ssh-keygen -t rsa -C "patelrohanv@gmail.com"
 
+# install any missing dev tools
+sudo pacman -S base-devel
+
 # install yay
 sudo pacman -S yay
 
