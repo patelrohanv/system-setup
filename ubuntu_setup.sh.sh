@@ -2,18 +2,25 @@
 
 ssh-keygen -t rsa -C "patelrohanv@gmail.com"
 
-sudo apt install
 # chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 
 #discord
-wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
+wget discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
 sudo dpkg -i discord.deb
 rm discord.deb
 
+#slack
+wget slack.deb https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
+sudo dpkg -i slack.deb
+rm slack.deb
+
 # vs code
+wget vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
+sudo dpkg -i vscode.deb
+rm vscode.deb
 
 # google music
 
