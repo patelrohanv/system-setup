@@ -35,6 +35,9 @@ sudo apt install python3
 # node
 sudo apt install nodejs
 
+# npm
+sudo apt install npm
+
 # angular
 sudo npm install -g @angular/cli
 
